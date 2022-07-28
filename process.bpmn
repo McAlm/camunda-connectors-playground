@@ -15,7 +15,7 @@
         <zeebe:ioMapping>
           <zeebe:input source="Paule" target="receivers" />
           <zeebe:input source="Stefan" target="sender" />
-          <zeebe:input source="= string join([&#34;Hallo &#34;, firstName])" target="messageBody" />
+          <zeebe:input source="= string join([&#34;Hallöchen &#34;, firstName])" target="messageBody" />
           <zeebe:output source="= resultStatus" target="mailSendResult" />
         </zeebe:ioMapping>
       </bpmn:extensionElements>
