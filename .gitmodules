@@ -1,0 +1,3 @@
+[submodule "connector-sdk"]
+	path = connector-sdk
+	url = git@github.com:camunda/connector-sdk.git
