@@ -11,7 +11,7 @@ public class FakeMailConnectorFunction implements ConnectorFunction {
         RequestObj req = context.getVariablesAsType(RequestObj.class);
         System.out.println("Variables as Json: " + variables);
         System.out.println("Variables as Object: " + req.toString());
-        //return new ResponseObj("Bla", "Blubb");
-        return "Bla";
+        return new ResponseObj("Bla", "Blubb");
+        //return "Bla";
     }
 }
